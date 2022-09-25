@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "todo",
+    "slug": "todo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/TDL2.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/TDL.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "This app uses Face ID and Touch ID to verify the user's indentify and protect the aplication"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/TDL2.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.gustas10.todo"
+    },
+    "web": {
+      "favicon": "./assets/TDL2.png"
+    }
+  }
+}
